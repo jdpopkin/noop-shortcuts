@@ -1,0 +1,27 @@
+{
+  "name": "No-op Shortcuts",
+  "version": "0.1",
+  "description": "Adds some shortcuts to Chrome that don't do anything so you can block built-in shortcuts",
+  "background": {
+          "scripts": ["background.js"],
+		  "persistent": false
+  },
+  "commands": {
+	  "no-op-1": {
+		  "description": "Does nothing."
+	  },
+	  "no-op-2": {
+		  "description": "Does nothing."
+	  },
+	  "no-op-3": {
+		  "description": "Does nothing."
+	  },
+	  "no-op-4": {
+		  "description": "Does nothing."
+	  },
+	  "no-op-5": {
+		  "description": "Does nothing."
+	  }
+  },
+  "manifest_version": 2
+}
